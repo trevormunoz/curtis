@@ -23,3 +23,20 @@ This work is published from:
       content="US" about="http://www.trevormunoz.com/">
   United States</span>.
 </p>
+
+### URL Patterns in NU's Edward S. Curtis's The North American Indian
+Basic URL patterns:
+
+Base URL—
+http://curtis.library.northwestern.edu/curtis/
+
+OCR display for each volume— 
+http://curtis.library.northwestern.edu/curtis/ocrtext.cgi?vol=1#nai.01.book.00000003
+Grab the "ocrtext" div
+
+Contains links to image display of the form—
+viewPage?id=nai.01.book.00000001&size=2&showp=1&volume=1
+Lots of metadata in the page headers
+
+Which can be translated to direct image links of the form—
+http://digital.library.northwestern.edu/curtis/images/NAIv01/00000001AH.gif (for large size)
